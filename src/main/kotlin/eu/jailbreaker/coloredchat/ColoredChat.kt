@@ -24,7 +24,7 @@ import java.util.regex.Pattern
 @LoadOrder(PluginLoadOrder.POSTWORLD)
 @Website("https://jailbreaker.eu")
 @Plugin(name = "ColoredChat", version = "0.0.1")
-@Description("More beautiful chat messages with ALL color codes")
+@Description("More beautiful chat messages and signs with ALL color codes")
 @Commands(org.bukkit.plugin.java.annotation.command.Command(name = "colors", permission = "chat.colored.modify"))
 class ColoredChat : JavaPlugin(), Listener, CommandExecutor {
     private lateinit var configFile: File
