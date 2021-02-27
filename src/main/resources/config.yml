@@ -1,4 +1,9 @@
 colors:
   blue:
-    identifier: '&j'
+    identifier: '&jj'
     hex: '#376ea6'
+gradients:
+  first:
+    identifier: '~12'
+    fromHex: '#4287f5'
+    toHex: '#496085'
